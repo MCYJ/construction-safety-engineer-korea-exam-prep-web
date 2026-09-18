@@ -38,3 +38,7 @@
 
 - 2026-09-19: local build generated 34 indexable routes and 36 HTML files total.
 - 2026-09-19: local checker passed metadata, links, page count, `keep-all`, Google Play identity, disabled App Store state, and equal badge frames.
+- 2026-09-19: GitHub Pages workflow run `35360794083` completed successfully.
+- 2026-09-19: production QA returned 200 for all 34 sitemap routes and five key assets; a missing route returned 404.
+- 2026-09-19: production CSS contains global `word-break: keep-all` and the shared 194 × 75 px marketplace frame.
+- 2026-09-19: production Korean home links the exact Google Play package and contains no App Store URL. Google Play returned 200; Apple lookup remained `resultCount: 0` in KR, US, and GB.
