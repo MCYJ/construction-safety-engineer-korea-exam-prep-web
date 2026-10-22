@@ -1,1 +1,10 @@
-{"name":"construction-safety-engineer-korea-exam-prep-web","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","check":"node scripts/check.mjs"}}
+{
+  "name": "construction-safety-engineer-korea-exam-prep-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/seo-enhance.mjs",
+    "check": "node scripts/check.mjs && node scripts/seo-enhance.mjs --check"
+  }
+}
